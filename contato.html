@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+<head>
+<title> Fale Conosco </title>
+<meta charset="UTF-8">
+<link rel ="shortcut icon" href="img/fruta.ico"/>
+<link rel="stylesheet" type="text/css" href="estilo.css">
+<table border="0">
+
+<tr>
+<td><h2><a href="index.html">Home</a></td></h2><br>
+<td></td>
+<td></td>
+<td><h2><a href="sobre.html">Sobre</a></td></h2>
+<td></td>
+<td></td>
+<td><h2><a href="cultivo.html">Cultivo</a></td></h2>
+<td></td>
+<td></td>
+<td><h2><a href="beneficios.html">Benefícios</a></td></h2>
+<td></td>
+<td></td>
+<td><h2><a href="receitas.html">Receitas</a></td></h2>
+<td></td>
+<td></td>
+<td><h2><a href="contato.html">Contato</a></td></h2>
+</tr>
+</table>
+<hr>
+
+<script language="javascript" type="text/javascript">
+
+function validar (){ //início da função para validar os campos
+var nome = form1.nome.value;
+var email = form1.email.value;
+var telefone = form1.telefone.value;
+
+if (nome == ""){
+alert ('Por favor, preencha o campo com o seu nome')
+form1.nome.focus ();
+return false;
+}
+
+if (email == ""){
+alert ('Por favor, preencha o campo com o seu e-mail')
+form1.email.focus ();
+return false;
+}
+
+if (telefone == ""){
+alert ('Por favor, preencha o campo com o seu número de telefone')
+form1.telefone.focus ();
+return false;
+}
+
+}//fim da função
+</script>
+</head>
+
+<body bgcolor="#FAEBD7">
+
+<center><h1>Fale Conosco</h1></center>
+
+<form name="form1" action="enviado.html" method="post">
+
+Nome*: <input type= "text" name= "nome" placeholder="João da Silva"><br><br><br><br>
+E-mail*: <input type= "email" name= "email" placeholder="example@example.com.br"><br><br><br><br>
+Telefone*: <input type= "text" name= "telefone" placeholder="(XX)XXXXX-XXXX"><br><br><br><br>
+<textarea placeholder="Digite sua mensagem" cols="45" rows="10" name="comentario"></textarea>
+<br>
+
+<input type="submit" onclick="return validar ()" value="ENVIAR">
+
+<input type="reset" name= "LIMPA" value="LIMPAR">
+	
+
+</form>
+<div img align="right"> <a href="#"> <img src="img/topoo.png" width="50" height="50" alt="topo"/></a> </div>
+
+<hr> <h5><center> Letícia Oliveira - &copyTodos os direitos resevados.</center></h5>
+<br>
+<br>
+
+</body>
+</head>
+</html>

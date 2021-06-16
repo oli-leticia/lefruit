@@ -1,0 +1,86 @@
+/* DOCUMENTO CSS - REGRAS DE ESTILIZAÇÃO PARA EXEMPLO MENU EM TABELAS*/
+
+
+
+*{ margin: 0px;/*zerar as demarcações de sites anteriores*/
+padding: 0px;
+}
+
+
+a{text-decoration: none;/*tirar sublinhado*/
+}
+
+h1{padding-top: 20px;
+padding-left: 0px;
+padding-right: 0px;
+font-family: 'Bodoni MT';
+font-size: 40px;
+color: #000000;
+text-align: center;
+padding-bottom: 50px;
+}
+
+h2{padding: 0px;
+padding-left: 15px;
+font-family: 'Arial';
+font-size: 15px;
+color: #000000;
+text-align: left;
+}
+
+h3{margin: 50px;
+padding-top: 10px;
+font-family: 'Bodoni MT';
+color: #000000;
+font-size: 30px;
+text-align: center;
+padding-bottom:0px;
+}
+
+h4{padding-top: 20px;
+font-family: 'Arial';
+font-size: 15px;
+color: #000000;
+text-align: left;
+padding-bottom: 20px;
+}
+
+
+h5{padding-top: 20px;
+font-family: 'Arial';
+font-size: 15px;
+color: #000000;
+text-align: center;
+padding-bottom: 20px;
+}
+
+table{padding-top: 15px;
+font-family: 'Ms Trebuchet';
+color: #0000FF;
+font-size: 15px;
+text-indent: 20px;/*no menu da espaço entre os botões*/
+padding-bottom: 20px;
+}
+
+form{padding-top: 35px;
+font-family: 'Ms Trebuchet';
+color: #000000;
+font-size: 15px;
+text-align: center;
+padding-bottom:90px;
+}
+
+p{margin-left: 190px;
+margin-right: 190px;
+margin-top: 10px;
+font-family: 'Arial';
+color: #000000;
+font-size: 17px;
+padding-bottom:10px;
+text-align: justify;
+}
+
+img{ margin-left: 30px;
+margin-top: 10px;
+}
+
